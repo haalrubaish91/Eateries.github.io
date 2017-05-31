@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 4</title>
+<base target="_self" />
+<script type="text/javascript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'buttonAB.jpg',/*url*/'buttonAC.jpg',/*url*/'buttonAE.jpg',/*url*/'buttonAF.jpg',/*url*/'buttonB1.jpg',/*url*/'buttonB2.jpg',/*url*/'buttonB4.jpg',/*url*/'buttonB5.jpg',/*url*/'buttonB7.jpg',/*url*/'buttonB8.jpg')" style="background-attachment: fixed; background-color: #008080;">
+
+<a href="action%20movies.html" target="main">
+<img id="img1" alt="Action Movies" height="35" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'buttonAC.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'buttonAA.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'buttonAB.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'buttonAB.jpg')" src="buttonAA.jpg" style="border: 0" width="175" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 6" fp-title="Action Movies" --></a>
+<br />
+<br />
+<p>
+<a href="anemation%20movie.html" target="main">
+<img id="img2" alt="Animation movies" height="35" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'buttonAF.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'buttonAD.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'buttonAE.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'buttonAE.jpg')" src="buttonAD.jpg" style="border: 0" width="175" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 6" fp-title="Animation movies" --></a></p>
+<p>&nbsp;</p>
+<p>
+<a href="romantic%20movie.html" target="main">
+<img id="img3" alt="Romantic movies" height="35" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'buttonB2.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'buttonB0.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'buttonB1.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'buttonB1.jpg')" src="buttonB0.jpg" style="border: 0" width="175" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 6" fp-title="Romantic movies" --></a></p>
+<p>&nbsp;</p>
+<p>
+<a href="horro%20movie.html" target="main">
+<img id="img4" alt="Horro Movies" height="35" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'buttonB5.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'buttonB3.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'buttonB4.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'buttonB4.jpg')" src="buttonB3.jpg" style="border: 0" width="175" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 6" fp-title="Horro Movies" --></a></p>
+<p>&nbsp;</p>
+<p>
+<a href="srience%20fiction.html" target="main">
+<img id="img5" alt="science Fiction" height="35" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'buttonB8.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'buttonB6.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'buttonB7.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'buttonB7.jpg')" src="buttonB6.jpg" style="border: 0" width="175" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 6" fp-title="science Fiction" --></a></p>
+<p>&nbsp;</p>
+
+</body>
+
+</html>
